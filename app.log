@@ -1,0 +1,36 @@
+2025-08-22 13:32:19,465 - __main__ - ERROR - Error saving data: [Errno 13] Permission denied: 'caregivers_database.xlsx'
+2025-08-22 13:32:19,634 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\Desktop\ISDI Database\ISDI DBS\app.py", line 119, in save_data
+    with pd.ExcelWriter(EXCEL_PATH, engine="openpyxl", mode="w") as writer:
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'caregivers_database.xlsx'
+
+2025-08-22 13:53:41,677 - __main__ - ERROR - Error saving data: [Errno 13] Permission denied: 'caregivers_database.xlsx'
+2025-08-22 13:53:41,679 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\Desktop\ISDI Database\ISDI DBS\app.py", line 119, in save_data
+    with pd.ExcelWriter(EXCEL_PATH, engine="openpyxl", mode="w") as writer:
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'caregivers_database.xlsx'
+
+2025-08-22 13:58:37,102 - __main__ - ERROR - Error saving data: [Errno 13] Permission denied: 'caregivers_database.xlsx'
+2025-08-22 13:58:37,111 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\Desktop\ISDI Database\ISDI DBS\app.py", line 119, in save_data
+    with pd.ExcelWriter(EXCEL_PATH, engine="openpyxl", mode="w") as writer:
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'caregivers_database.xlsx'
+
